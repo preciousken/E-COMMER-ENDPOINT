@@ -1,0 +1,34 @@
+{
+  "name": "pizzarus",
+  "version": "1.0.0",
+  "description": "A small set of rest API endpoints for a pizza delivery company built using NodeJS and Express.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/app.js",
+    "dev": "npx nodemon src/app.ts",
+    "build": "tsc -p ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/stripe": "^8.0.417",
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^14.2.0",
+    "express": "^4.17.2",
+    "joi": "^17.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.0",
+    "stripe": "^8.202.0",
+    "typescript": "^4.5.5"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.0",
+    "@types/express": "^4.17.13",
+    "@types/jsonwebtoken": "^8.5.8",
+    "@types/node": "^17.0.10",
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.4.0"
+  }
+}
